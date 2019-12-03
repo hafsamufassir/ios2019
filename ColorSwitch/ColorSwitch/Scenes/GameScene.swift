@@ -8,13 +8,6 @@
 
 import SpriteKit
 
-protocol TransitionDelegate: SKSceneDelegate {
-    func showAlert(title:String,message:String)
-    func handleLoginBtn(username:String,password:String)
-    func handleFacebookBtn()
-    func handleTwitterBtn()
-}
-
 enum PlayColors  {
     static let colors = [
         UIColor(red: 231/255, green: 76/255, blue: 60/255, alpha: 1.0),
