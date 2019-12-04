@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BA6BCF5E-37CA-4EFE-85CD-61D19DAC4C69"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ColorSwicthGame/AuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "sendSMSButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - dcf101e7c88a0226"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.sendSMSButton.getter : __C.UIButton"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "374">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - 83f89f50ee243dae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIButton in ColorSwicthGame.AuthViewController.sendSMSButton.getter : __C.UIButton"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - ce8eed6797af312a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.sendSMSButton.setter : __C.UIButton"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - a45394bf4af0d165"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.sendSMSButton.modify : __C.UIButton"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - b226796c3c4d0f86"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.sendSMSButton.modify : __C.UIButton with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - 8682ace3a5f9792c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ColorSwicthGame.AuthViewController"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "F7BE74AA-4E0C-458C-BF0F-DE03432A44ED - e8440b38e1a475e1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColorSwicthGame.AuthViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ColorSwicthGame.AuthViewController&gt;"
+                  moduleName = "ColorSwicthGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hafsamufassir/Documents/KBTU/Semester%205/IOS%20development%20/ColorSwicthGame/ColorSwicthGame/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

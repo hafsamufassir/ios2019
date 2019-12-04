@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A5CC732398155500818A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC722398155500818A78 /* AppDelegate.swift */; };
+		30A5CC752398155500818A78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC742398155500818A78 /* SceneDelegate.swift */; };
+		30A5CC7A2398155500818A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC782398155500818A78 /* Main.storyboard */; };
+		30A5CC7D2398155500818A78 /* ColorSwicthGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC7B2398155500818A78 /* ColorSwicthGame.xcdatamodeld */; };
+		30A5CC7F2398155700818A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC7E2398155700818A78 /* Assets.xcassets */; };
+		30A5CC822398155700818A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC802398155700818A78 /* LaunchScreen.storyboard */; };
+		30A5CC8E2398194E00818A78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC8D2398194E00818A78 /* GoogleService-Info.plist */; };
+		30A5CC90239819E100818A78 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC8F239819E100818A78 /* AuthManager.swift */; };
+		30A5CC9423981B2400818A78 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC9323981B2400818A78 /* VerifyCodeViewController.swift */; };
+		30A5CC9623981F4700818A78 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC9523981F4700818A78 /* AuthViewController.swift */; };
+		30A5CC982398319500818A78 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC972398319500818A78 /* GameViewController.swift */; };
+		30A5CC9A2398324B00818A78 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC992398324B00818A78 /* GameScene.swift */; };
+		30A5CC9C2398329500818A78 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC9B2398329500818A78 /* MenuScene.swift */; };
+		30A5CC9E239832C700818A78 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC9D239832C700818A78 /* Settings.swift */; };
+		30A5CCA0239836CA00818A78 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC9F239836CA00818A78 /* bling.wav */; };
+		460DDC992A6ED040B213DE8E /* Pods_ColorSwicthGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55096E4F7697F28ECF1DA87E /* Pods_ColorSwicthGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFE1FD077CAB8A9F90EE754 /* Pods-ColorSwicthGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSwicthGame.debug.xcconfig"; path = "Target Support Files/Pods-ColorSwicthGame/Pods-ColorSwicthGame.debug.xcconfig"; sourceTree = "<group>"; };
+		30A5CC6F2398155500818A78 /* ColorSwicthGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwicthGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A5CC722398155500818A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30A5CC742398155500818A78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30A5CC792398155500818A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A5CC7C2398155500818A78 /* ColorSwicthGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorSwicthGame.xcdatamodel; sourceTree = "<group>"; };
+		30A5CC7E2398155700818A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A5CC812398155700818A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A5CC832398155700818A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A5CC8D2398194E00818A78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A5CC8F239819E100818A78 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		30A5CC9323981B2400818A78 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
+		30A5CC9523981F4700818A78 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		30A5CC972398319500818A78 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		30A5CC992398324B00818A78 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30A5CC9B2398329500818A78 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		30A5CC9D239832C700818A78 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		30A5CC9F239836CA00818A78 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bling.wav; path = ../../ColorSwitch/ColorSwitch/bling.wav; sourceTree = "<group>"; };
+		55096E4F7697F28ECF1DA87E /* Pods_ColorSwicthGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSwicthGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5306657843B6F04432B9B0 /* Pods-ColorSwicthGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSwicthGame.release.xcconfig"; path = "Target Support Files/Pods-ColorSwicthGame/Pods-ColorSwicthGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A5CC6C2398155500818A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DDC992A6ED040B213DE8E /* Pods_ColorSwicthGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DAA62415DDFE9674F14D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55096E4F7697F28ECF1DA87E /* Pods_ColorSwicthGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30A5CC662398155500818A78 = {
+			isa = PBXGroup;
+			children = (
+				30A5CC712398155500818A78 /* ColorSwicthGame */,
+				30A5CC702398155500818A78 /* Products */,
+				C3099FE92095D04C6437D18A /* Pods */,
+				06DAA62415DDFE9674F14D04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30A5CC702398155500818A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A5CC6F2398155500818A78 /* ColorSwicthGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A5CC712398155500818A78 /* ColorSwicthGame */ = {
+			isa = PBXGroup;
+			children = (
+				30A5CC8D2398194E00818A78 /* GoogleService-Info.plist */,
+				30A5CC9F239836CA00818A78 /* bling.wav */,
+				30A5CC722398155500818A78 /* AppDelegate.swift */,
+				30A5CC742398155500818A78 /* SceneDelegate.swift */,
+				30A5CC782398155500818A78 /* Main.storyboard */,
+				30A5CC7E2398155700818A78 /* Assets.xcassets */,
+				30A5CC802398155700818A78 /* LaunchScreen.storyboard */,
+				30A5CC832398155700818A78 /* Info.plist */,
+				30A5CC7B2398155500818A78 /* ColorSwicthGame.xcdatamodeld */,
+				30A5CC8F239819E100818A78 /* AuthManager.swift */,
+				30A5CC9323981B2400818A78 /* VerifyCodeViewController.swift */,
+				30A5CC9523981F4700818A78 /* AuthViewController.swift */,
+				30A5CC972398319500818A78 /* GameViewController.swift */,
+				30A5CC992398324B00818A78 /* GameScene.swift */,
+				30A5CC9B2398329500818A78 /* MenuScene.swift */,
+				30A5CC9D239832C700818A78 /* Settings.swift */,
+			);
+			path = ColorSwicthGame;
+			sourceTree = "<group>";
+		};
+		C3099FE92095D04C6437D18A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFE1FD077CAB8A9F90EE754 /* Pods-ColorSwicthGame.debug.xcconfig */,
+				DD5306657843B6F04432B9B0 /* Pods-ColorSwicthGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A5CC6E2398155500818A78 /* ColorSwicthGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A5CC862398155700818A78 /* Build configuration list for PBXNativeTarget "ColorSwicthGame" */;
+			buildPhases = (
+				DAC45931476F21DDFB04B6DB /* [CP] Check Pods Manifest.lock */,
+				30A5CC6B2398155500818A78 /* Sources */,
+				30A5CC6C2398155500818A78 /* Frameworks */,
+				30A5CC6D2398155500818A78 /* Resources */,
+				F13D5A6D99F400BB7659B387 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSwicthGame;
+			productName = ColorSwicthGame;
+			productReference = 30A5CC6F2398155500818A78 /* ColorSwicthGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A5CC672398155500818A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Hafsa Mufasssir";
+				TargetAttributes = {
+					30A5CC6E2398155500818A78 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 30A5CC6A2398155500818A78 /* Build configuration list for PBXProject "ColorSwicthGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A5CC662398155500818A78;
+			productRefGroup = 30A5CC702398155500818A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A5CC6E2398155500818A78 /* ColorSwicthGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A5CC6D2398155500818A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A5CC822398155700818A78 /* LaunchScreen.storyboard in Resources */,
+				30A5CC8E2398194E00818A78 /* GoogleService-Info.plist in Resources */,
+				30A5CC7F2398155700818A78 /* Assets.xcassets in Resources */,
+				30A5CCA0239836CA00818A78 /* bling.wav in Resources */,
+				30A5CC7A2398155500818A78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAC45931476F21DDFB04B6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorSwicthGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13D5A6D99F400BB7659B387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorSwicthGame/Pods-ColorSwicthGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorSwicthGame/Pods-ColorSwicthGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorSwicthGame/Pods-ColorSwicthGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A5CC6B2398155500818A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A5CC982398319500818A78 /* GameViewController.swift in Sources */,
+				30A5CC732398155500818A78 /* AppDelegate.swift in Sources */,
+				30A5CC9A2398324B00818A78 /* GameScene.swift in Sources */,
+				30A5CC9C2398329500818A78 /* MenuScene.swift in Sources */,
+				30A5CC9E239832C700818A78 /* Settings.swift in Sources */,
+				30A5CC752398155500818A78 /* SceneDelegate.swift in Sources */,
+				30A5CC9623981F4700818A78 /* AuthViewController.swift in Sources */,
+				30A5CC9423981B2400818A78 /* VerifyCodeViewController.swift in Sources */,
+				30A5CC7D2398155500818A78 /* ColorSwicthGame.xcdatamodeld in Sources */,
+				30A5CC90239819E100818A78 /* AuthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30A5CC782398155500818A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A5CC792398155500818A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30A5CC802398155700818A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A5CC812398155700818A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30A5CC842398155700818A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A5CC852398155700818A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30A5CC872398155700818A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFE1FD077CAB8A9F90EE754 /* Pods-ColorSwicthGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorSwicthGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafsamufassir.ColorSwicthGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30A5CC882398155700818A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5306657843B6F04432B9B0 /* Pods-ColorSwicthGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorSwicthGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafsamufassir.ColorSwicthGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A5CC6A2398155500818A78 /* Build configuration list for PBXProject "ColorSwicthGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A5CC842398155700818A78 /* Debug */,
+				30A5CC852398155700818A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A5CC862398155700818A78 /* Build configuration list for PBXNativeTarget "ColorSwicthGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A5CC872398155700818A78 /* Debug */,
+				30A5CC882398155700818A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30A5CC7B2398155500818A78 /* ColorSwicthGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30A5CC7C2398155500818A78 /* ColorSwicthGame.xcdatamodel */,
+			);
+			currentVersion = 30A5CC7C2398155500818A78 /* ColorSwicthGame.xcdatamodel */;
+			path = ColorSwicthGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30A5CC672398155500818A78 /* Project object */;
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,12 @@
 		3037FAC92395292D007F32D7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037FAC82395292D007F32D7 /* Settings.swift */; };
 		3037FACB23953E64007F32D7 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037FACA23953E64007F32D7 /* MenuScene.swift */; };
 		3037FACD23954922007F32D7 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3037FACC23954922007F32D7 /* bling.wav */; };
+		30A5CC0F23970BD700818A78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A5CC0E23970BD700818A78 /* GoogleService-Info.plist */; };
+		30A5CC1123970CF500818A78 /* AuthScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC1023970CF500818A78 /* AuthScene.swift */; };
+		30A5CC1323971FA400818A78 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC1223971FA400818A78 /* AuthManager.swift */; };
+		30A5CC172397231C00818A78 /* VerifyCodeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC162397231C00818A78 /* VerifyCodeScene.swift */; };
+		30A5CC1F2397E5F800818A78 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5CC1E2397E5F800818A78 /* VerifyCodeViewController.swift */; };
+		4BC55936C858F5612366FC4C /* Pods_ColorSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE22F3A55CA2B0E70D0D029E /* Pods_ColorSwitch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,14 @@
 		3037FAC82395292D007F32D7 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3037FACA23953E64007F32D7 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		3037FACC23954922007F32D7 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
+		30A5CC0E23970BD700818A78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A5CC1023970CF500818A78 /* AuthScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScene.swift; sourceTree = "<group>"; };
+		30A5CC1223971FA400818A78 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		30A5CC162397231C00818A78 /* VerifyCodeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeScene.swift; sourceTree = "<group>"; };
+		30A5CC1E2397E5F800818A78 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
+		72B3A9B49EC5FCC1273C07A7 /* Pods-ColorSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSwitch.release.xcconfig"; path = "Target Support Files/Pods-ColorSwitch/Pods-ColorSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		BE22F3A55CA2B0E70D0D029E /* Pods_ColorSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C470EF84FF11912456241B4B /* Pods-ColorSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSwitch.debug.xcconfig"; path = "Target Support Files/Pods-ColorSwitch/Pods-ColorSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC55936C858F5612366FC4C /* Pods_ColorSwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +63,8 @@
 			children = (
 				3037FAAB23945F2D007F32D7 /* ColorSwitch */,
 				3037FAAA23945F2D007F32D7 /* Products */,
+				51404B0AEFF6FA4F63475ADB /* Pods */,
+				CACCF1A9F26EA1F49CC7A1C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +79,7 @@
 		3037FAAB23945F2D007F32D7 /* ColorSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				30A5CC0E23970BD700818A78 /* GoogleService-Info.plist */,
 				3037FACC23954922007F32D7 /* bling.wav */,
 				3037FABE23945F32007F32D7 /* Info.plist */,
 				3037FAC72394622B007F32D7 /* Assets */,
@@ -76,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3037FAB423945F2D007F32D7 /* GameViewController.swift */,
+				30A5CC1E2397E5F800818A78 /* VerifyCodeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -85,6 +104,8 @@
 			children = (
 				3037FAB223945F2D007F32D7 /* GameScene.swift */,
 				3037FACA23953E64007F32D7 /* MenuScene.swift */,
+				30A5CC1023970CF500818A78 /* AuthScene.swift */,
+				30A5CC162397231C00818A78 /* VerifyCodeScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -94,6 +115,7 @@
 			children = (
 				3037FAAC23945F2D007F32D7 /* AppDelegate.swift */,
 				3037FAC82395292D007F32D7 /* Settings.swift */,
+				30A5CC1223971FA400818A78 /* AuthManager.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -108,6 +130,23 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		51404B0AEFF6FA4F63475ADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C470EF84FF11912456241B4B /* Pods-ColorSwitch.debug.xcconfig */,
+				72B3A9B49EC5FCC1273C07A7 /* Pods-ColorSwitch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CACCF1A9F26EA1F49CC7A1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE22F3A55CA2B0E70D0D029E /* Pods_ColorSwitch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3037FAC123945F32007F32D7 /* Build configuration list for PBXNativeTarget "ColorSwitch" */;
 			buildPhases = (
+				9009ABCDD724AB4571CB4BEB /* [CP] Check Pods Manifest.lock */,
 				3037FAA523945F2C007F32D7 /* Sources */,
 				3037FAA623945F2C007F32D7 /* Frameworks */,
 				3037FAA723945F2C007F32D7 /* Resources */,
+				E5FCBF5B22FD874672E4A807 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +209,7 @@
 			files = (
 				3037FAB823945F2D007F32D7 /* Main.storyboard in Resources */,
 				3037FACD23954922007F32D7 /* bling.wav in Resources */,
+				30A5CC0F23970BD700818A78 /* GoogleService-Info.plist in Resources */,
 				3037FABA23945F32007F32D7 /* Assets.xcassets in Resources */,
 				3037FABD23945F32007F32D7 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -175,15 +217,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9009ABCDD724AB4571CB4BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorSwitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FCBF5B22FD874672E4A807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorSwitch/Pods-ColorSwitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorSwitch/Pods-ColorSwitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorSwitch/Pods-ColorSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3037FAA523945F2C007F32D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A5CC1123970CF500818A78 /* AuthScene.swift in Sources */,
+				30A5CC1323971FA400818A78 /* AuthManager.swift in Sources */,
 				3037FAB323945F2D007F32D7 /* GameScene.swift in Sources */,
 				3037FAB523945F2D007F32D7 /* GameViewController.swift in Sources */,
+				30A5CC1F2397E5F800818A78 /* VerifyCodeViewController.swift in Sources */,
 				3037FACB23953E64007F32D7 /* MenuScene.swift in Sources */,
 				3037FAC92395292D007F32D7 /* Settings.swift in Sources */,
+				30A5CC172397231C00818A78 /* VerifyCodeScene.swift in Sources */,
 				3037FAAD23945F2D007F32D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +414,7 @@
 		};
 		3037FAC223945F32007F32D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C470EF84FF11912456241B4B /* Pods-ColorSwitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +433,7 @@
 		};
 		3037FAC323945F32007F32D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B3A9B49EC5FCC1273C07A7 /* Pods-ColorSwitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -11,7 +11,7 @@ import SpriteKit
 class MenuScene: SKScene {
     
     override func didMove(to view: SKView) {
-         backgroundColor =  UIColor(red: 44/255,  green: 62/255, blue: 80/255,  alpha: 1.0)
+        backgroundColor =  UIColor(red: 44/255,  green: 62/255, blue: 80/255,  alpha: 1.0)
         addLogo()
         addLabels()
     }
@@ -77,8 +77,6 @@ class MenuScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let gameScene = GameScene(size: view!.bounds.size)
         view?.presentScene(gameScene)
-        
-        
     }
         
 
